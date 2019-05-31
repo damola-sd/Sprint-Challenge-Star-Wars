@@ -12,10 +12,10 @@ export default function StarWarsCharacter(prop) {
           <div
             className='bio-data'
           >
-            <h4>Name: {char.name}</h4>
+            <h3>Name: {char.name}</h3>
             <h4>Birth-Year: {char.birth_year}</h4>
-            <h4>Gender: {char.gender}</h4>
-            <h4>Eye-Color: {char.eye_color}</h4>
+            <h4>Gender: {(char.gender).toUpperCase()}</h4>
+            <h4>Eye-Color: {(char.eye_color).toUpperCase()}</h4>
           </div>
           
 
