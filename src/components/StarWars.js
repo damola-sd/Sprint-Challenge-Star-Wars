@@ -34,7 +34,7 @@ class App extends Component {
       });
   };
 
-// Stretch problem Dog 
+// Stretch problem Dog -Dog is not fetching
 getDogs = URL => {
   // feel free to research what this code is doing.
   // At a high level we are calling an API to fetch some starwars data from the open web.
