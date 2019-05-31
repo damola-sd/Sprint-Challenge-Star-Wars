@@ -5,8 +5,9 @@ export default function StarWarsCharacter(prop) {
   return (
     prop.characters.map(char => {
       return (
-        <div
+        <div 
           key={char.created}
+          className='character'
         >  
           <div
             className='bio-data'
